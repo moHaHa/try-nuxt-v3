@@ -2,7 +2,7 @@
 const { locale } = useI18n()
 
 function toggleLang() {
-  locale.value = locale.value === 'ar' ? 'en' : 'ar'
+  locale.value = locale.value === 'en' ? 'fr' : 'en'
 }
 </script>
 
